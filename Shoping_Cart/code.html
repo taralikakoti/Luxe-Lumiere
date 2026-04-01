@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Your Atelier Selection | LUXE &amp; LUMIÈRE</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed": "#e2e2e2",
+              "inverse-surface": "#2f3131",
+              "on-tertiary-fixed": "#241a00",
+              "on-primary-fixed-variant": "#474747",
+              "on-surface": "#1a1c1c",
+              "on-tertiary": "#ffffff",
+              "on-secondary-fixed": "#1a1c1c",
+              "surface-container-low": "#f3f3f3",
+              "error": "#ba1a1a",
+              "primary-container": "#1b1b1b",
+              "surface-container": "#eeeeee",
+              "inverse-on-surface": "#f1f1f1",
+              "tertiary-fixed-dim": "#ecc246",
+              "on-secondary": "#ffffff",
+              "inverse-primary": "#c6c6c6",
+              "secondary-container": "#dfe0e0",
+              "error-container": "#ffdad6",
+              "surface-dim": "#dadada",
+              "surface-bright": "#f9f9f9",
+              "outline": "#7e7576",
+              "tertiary": "#000000",
+              "surface": "#f9f9f9",
+              "on-error-container": "#93000a",
+              "on-tertiary-container": "#a27f00",
+              "primary-fixed": "#e2e2e2",
+              "outline-variant": "#cfc4c5",
+              "surface-tint": "#5e5e5e",
+              "tertiary-container": "#241a00",
+              "on-secondary-fixed-variant": "#454747",
+              "on-background": "#1a1c1c",
+              "primary": "#000000",
+              "surface-container-high": "#e8e8e8",
+              "on-error": "#ffffff",
+              "on-secondary-container": "#616363",
+              "primary-fixed-dim": "#c6c6c6",
+              "secondary-fixed-dim": "#c6c6c7",
+              "tertiary-fixed": "#ffe08e",
+              "secondary": "#5d5f5f",
+              "background": "#f9f9f9",
+              "surface-container-highest": "#e2e2e2",
+              "on-tertiary-fixed-variant": "#584400",
+              "on-primary-fixed": "#1b1b1b",
+              "on-primary-container": "#848484",
+              "on-primary": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "on-surface-variant": "#4c4546",
+              "surface-variant": "#e2e2e2"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .brand-font { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-surface antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#f9f9f9]/80 backdrop-blur-md dark:bg-neutral-950/80 shadow-[0_20px_40px_rgba(0,0,0,0.03)] flex justify-between items-center px-12 py-6">
+<div class="text-2xl font-bold tracking-[-0.06em] text-neutral-900 dark:text-neutral-50">LUXE &amp; LUMIÈRE</div>
+<div class="hidden md:flex gap-12">
+<a class="font-['Plus_Jakarta_Sans'] tracking-[-0.04em] uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-[#ecc246] transition-all duration-500 ease-out" href="#">Collections</a>
+<a class="font-['Plus_Jakarta_Sans'] tracking-[-0.04em] uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-[#ecc246] transition-all duration-500 ease-out" href="#">New Arrivals</a>
+<a class="font-['Plus_Jakarta_Sans'] tracking-[-0.04em] uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-[#ecc246] transition-all duration-500 ease-out" href="#">Atelier</a>
+<a class="font-['Plus_Jakarta_Sans'] tracking-[-0.04em] uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-[#ecc246] transition-all duration-500 ease-out" href="#">Journal</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="material-symbols-outlined text-neutral-900 scale-95 active:scale-100 transition-transform" data-icon="favorite">favorite</button>
+<button class="material-symbols-outlined text-neutral-900 scale-95 active:scale-100 transition-transform relative" data-icon="shopping_bag">
+                shopping_bag
+                <span class="absolute -top-1 -right-1 bg-tertiary-fixed-dim text-[10px] w-4 h-4 flex items-center justify-center rounded-full text-black font-bold">2</span>
+</button>
+<button class="material-symbols-outlined text-neutral-900 scale-95 active:scale-100 transition-transform" data-icon="account_circle">account_circle</button>
+</div>
+</nav>
+<!-- Main Content Shell -->
+<main class="pt-32 pb-20 px-6 md:px-12 max-w-[1920px] mx-auto min-h-screen">
+<div class="flex flex-col gap-4 mb-12">
+<h1 class="text-4xl md:text-5xl font-extrabold tracking-[-0.04em] uppercase">Your Atelier Selection</h1>
+<p class="text-on-surface-variant font-body tracking-wide">Refining your curated collection for the season ahead.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<!-- Cart Items List (Left Column) -->
+<div class="lg:col-span-8 space-y-12">
+<!-- Item 1 -->
+<div class="flex flex-col md:flex-row gap-8 pb-12 surface-container-low border-b border-transparent">
+<div class="w-full md:w-48 h-64 bg-surface-container-high rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Close-up of a high-end tailored wool blazer in charcoal grey, hanging in a bright minimalist luxury boutique with soft ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaD03xJ270YhTv8jB-6JUT3YBMyyaus2_Oo6g2BnoogYkzEuvgtl1yXuyRzepYtUrhOj7O5SL7owH7gemYAC8KR5Nw3yIs9gKeNbD0P8a1D8BSewI3WrMkaOOeHn4g9p5nr5FS6KbxK5iufToW99n71THhMYnEMUmqiCitfmm-zeQyE7BsfrKeAuHNtbXgQb1nFMcGwAZ7gvyeKB-38mUlT9oBT_l21yLRPhJ_DwPM9BTV1vYcXxCPEzPph2bi8wv6foNNSnrA23pj"/>
+</div>
+<div class="flex-grow flex flex-col justify-between py-2">
+<div class="flex justify-between items-start">
+<div>
+<h3 class="text-xl font-bold tracking-tight uppercase mb-1">Architectural Wool Blazer</h3>
+<p class="text-on-surface-variant text-sm mb-4">Collection: L'Automne 2024</p>
+<div class="flex gap-6 text-sm">
+<span class="flex items-center gap-2">SIZE: <b class="font-semibold">IT 42</b></span>
+<span class="flex items-center gap-2">COLOR: <b class="font-semibold">Obsidian</b></span>
+</div>
+</div>
+<p class="text-lg font-bold">€1,450.00</p>
+</div>
+<div class="flex justify-between items-end mt-8">
+<div class="flex items-center gap-6 surface-container-high px-4 py-2 rounded-md">
+<button class="material-symbols-outlined text-sm hover:text-tertiary-fixed-dim transition-colors" data-icon="remove">remove</button>
+<span class="font-semibold text-sm">01</span>
+<button class="material-symbols-outlined text-sm hover:text-tertiary-fixed-dim transition-colors" data-icon="add">add</button>
+</div>
+<button class="flex items-center gap-2 text-xs uppercase tracking-widest text-on-surface-variant hover:text-error transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="delete">delete</span> Remove
+                            </button>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex flex-col md:flex-row gap-8 pb-12">
+<div class="w-full md:w-48 h-64 bg-surface-container-high rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Exotic leather structured handbag in cream white, placed on a marble plinth with dramatic architectural shadows and soft highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoMf4eCLhSJRDXtOTm4TLIGa4OxmSC5H-PRLrn3XbVf1EMCUNZSrfTcZI_0Q8VD5PcGiKnDr51V4LMrKojSVWRBQY1YSmCWYduMCvpaDOra6HvMtlpgluuepg1BFmxv6-1tfKONROUAh4QS6lsL7_wZ516qkzrBbVI4YLy1xD42ZSrou4QrfR-PjAcBgbUBMurv813JLtUn--8LmqSiaLm6x534Yr6B1u4EuUbz1gBW8WdnCOF7K98UB2fbMAoBJiCieAEyNA_cH1O"/>
+</div>
+<div class="flex-grow flex flex-col justify-between py-2">
+<div class="flex justify-between items-start">
+<div>
+<h3 class="text-xl font-bold tracking-tight uppercase mb-1">Sculptural Leather Tote</h3>
+<p class="text-on-surface-variant text-sm mb-4">Collection: Permanent Essentials</p>
+<div class="flex gap-6 text-sm">
+<span class="flex items-center gap-2">SIZE: <b class="font-semibold">Medium</b></span>
+<span class="flex items-center gap-2">COLOR: <b class="font-semibold">Alabaster</b></span>
+</div>
+</div>
+<p class="text-lg font-bold">€2,100.00</p>
+</div>
+<div class="flex justify-between items-end mt-8">
+<div class="flex items-center gap-6 surface-container-high px-4 py-2 rounded-md">
+<button class="material-symbols-outlined text-sm hover:text-tertiary-fixed-dim transition-colors" data-icon="remove">remove</button>
+<span class="font-semibold text-sm">01</span>
+<button class="material-symbols-outlined text-sm hover:text-tertiary-fixed-dim transition-colors" data-icon="add">add</button>
+</div>
+<button class="flex items-center gap-2 text-xs uppercase tracking-widest text-on-surface-variant hover:text-error transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="delete">delete</span> Remove
+                            </button>
+</div>
+</div>
+</div>
+<div class="pt-8">
+<a class="group flex items-center gap-3 text-sm uppercase font-bold tracking-widest transition-all" href="#">
+<span class="material-symbols-outlined transition-transform group-hover:-translate-x-2" data-icon="arrow_back">arrow_back</span>
+                        Continue Shopping
+                    </a>
+</div>
+</div>
+<!-- Order Summary (Right Column) -->
+<div class="lg:col-span-4">
+<div class="bg-surface-container-low p-8 rounded-lg sticky top-32 space-y-8">
+<h2 class="text-2xl font-bold uppercase tracking-tight">Order Summary</h2>
+<div class="space-y-4 font-body">
+<div class="flex justify-between text-on-surface-variant">
+<span>Subtotal</span>
+<span>€3,550.00</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Bespoke Shipping</span>
+<span>Complimentary</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Estimated Tax</span>
+<span>€284.00</span>
+</div>
+<div class="pt-4 mt-4 border-t border-outline-variant/30 flex justify-between text-xl font-bold">
+<span>Total</span>
+<span class="text-primary">€3,834.00</span>
+</div>
+</div>
+<!-- Coupon Section -->
+<div class="space-y-3">
+<label class="text-xs uppercase font-bold tracking-widest text-on-surface-variant">Privilege Code</label>
+<div class="flex gap-2">
+<input class="bg-surface-container-lowest border-none ring-1 ring-outline-variant/20 rounded-md px-4 py-3 w-full text-sm focus:ring-tertiary-fixed-dim transition-all outline-none" placeholder="ENTER CODE" type="text"/>
+<button class="bg-primary text-on-primary px-6 py-3 rounded-md text-xs font-bold uppercase hover:bg-primary-container transition-colors">Apply</button>
+</div>
+</div>
+<!-- Primary CTA -->
+<button class="w-full bg-gradient-to-br from-primary to-primary-container text-on-primary py-5 rounded-md font-bold uppercase tracking-[0.1em] text-sm shadow-[0_20px_40px_rgba(26,28,28,0.1)] hover:scale-[1.02] active:scale-100 transition-all duration-300">
+                        Proceed to Secure Checkout
+                    </button>
+<!-- Payment Icons -->
+<div class="pt-8 flex flex-col items-center gap-6 border-t border-outline-variant/30">
+<p class="text-[10px] uppercase font-bold tracking-[0.2em] text-on-surface-variant/60">Secure Payment Guaranteed</p>
+<div class="flex justify-center items-center gap-6 opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+<span class="material-symbols-outlined text-3xl" data-icon="credit_card">credit_card</span>
+<span class="material-symbols-outlined text-3xl" data-icon="account_balance">account_balance</span>
+<span class="material-symbols-outlined text-3xl" data-icon="qr_code_2">qr_code_2</span>
+<span class="material-symbols-outlined text-3xl" data-icon="payments">payments</span>
+</div>
+</div>
+<div class="flex items-center gap-2 text-xs text-on-surface-variant justify-center pt-2">
+<span class="material-symbols-outlined text-sm" data-icon="lock" data-weight="fill" style="font-variation-settings: 'FILL' 1;">lock</span>
+                        256-bit SSL Encrypted Connection
+                    </div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f3f3f3] dark:bg-neutral-950 w-full py-20 px-12 mt-20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1920px] mx-auto">
+<div class="space-y-6">
+<div class="font-['Plus_Jakarta_Sans'] text-xl font-bold">LUXE &amp; LUMIÈRE</div>
+<p class="text-neutral-500 dark:text-neutral-400 font-['Inter'] text-xs uppercase tracking-[0.1em] leading-relaxed">
+                    Crafting timeless elegance through contemporary design and artisanal heritage.
+                </p>
+</div>
+<div class="space-y-4">
+<h4 class="font-['Inter'] text-xs uppercase tracking-[0.1em] font-bold">The House</h4>
+<ul class="space-y-2">
+<li><a class="text-neutral-500 dark:text-neutral-400 font-['Inter'] text-xs uppercase tracking-[0.1em] hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors duration-300 underline-offset-4 hover:underline" href="#">The Story</a></li>
+<li><a class="text-neutral-500 dark:text-neutral-400 font-['Inter'] text-xs uppercase tracking-[0.1em] hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors duration-300 underline-offset-4 hover:underline" href="#">Sustainability</a></li>
+<li><a class="text-neutral-500 dark:text-neutral-400 font-['Inter'] text-xs uppercase tracking-[0.1em] hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors duration-300 underline-offset-4 hover:underline" href="#">Bespoke Services</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-['Inter'] text-xs uppercase tracking-[0.1em] font-bold">Assistance</h4>
+<ul class="space-y-2">
+<li><a class="text-neutral-500 dark:text-neutral-400 font-['Inter'] text-xs uppercase tracking-[0.1em] hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors duration-300 underline-offset-4 hover:underline" href="#">Shipping &amp; Returns</a></li>
+<li><a class="text-neutral-500 dark:text-neutral-400 font-['Inter'] text-xs uppercase tracking-[0.1em] hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors duration-300 underline-offset-4 hover:underline" href="#">Privacy Policy</a></li>
+<li><a class="text-neutral-500 dark:text-neutral-400 font-['Inter'] text-xs uppercase tracking-[0.1em] hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors duration-300 underline-offset-4 hover:underline" href="#">Contact</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h4 class="font-['Inter'] text-xs uppercase tracking-[0.1em] font-bold">Newsletter</h4>
+<div class="relative">
+<input class="w-full bg-transparent border-b border-outline-variant/30 py-2 text-xs uppercase tracking-widest focus:border-primary outline-none transition-colors" placeholder="EMAIL ADDRESS" type="email"/>
+<button class="absolute right-0 bottom-2 text-xs font-bold hover:text-tertiary-fixed-dim transition-colors">JOIN</button>
+</div>
+</div>
+</div>
+<div class="mt-20 pt-8 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-neutral-500 dark:text-neutral-400 font-['Inter'] text-[10px] uppercase tracking-[0.1em]">© 2024 LUXE &amp; LUMIÈRE ATELIER. ALL RIGHTS RESERVED.</p>
+<div class="flex gap-8">
+<a class="material-symbols-outlined text-xl text-neutral-500 hover:text-neutral-900 transition-colors" data-icon="brand_instagram" href="#">public</a>
+<a class="material-symbols-outlined text-xl text-neutral-500 hover:text-neutral-900 transition-colors" data-icon="brand_facebook" href="#">public</a>
+<a class="material-symbols-outlined text-xl text-neutral-500 hover:text-neutral-900 transition-colors" data-icon="brand_x" href="#">public</a>
+</div>
+</div>
+</footer>
+</body></html>
